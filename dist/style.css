@@ -1,0 +1,230 @@
+body {
+    background-color: #23263A;
+    user-select: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.retangulo_superior {
+    width: 1380px;
+    height: 120px;
+    background-color: #151728;
+    position: absolute;
+    top: -1%;
+    left: -1%;
+    box-shadow: 2px 2px 4px #151728;
+}
+
+h1 {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: white;
+    top: 10px;
+    left: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Rezini {
+    color: orange;
+    position: absolute;
+    left: 33px;
+    top: 0px;
+}
+
+.fundo_texto{
+    width: 1050px;
+    height: 385px;
+    background-color: #151728;
+    position: absolute;
+    border-radius: 25px;
+    left: 160px;
+    top: 210px;
+    box-shadow: 4px 4px 4px #0d0e18;
+}
+
+.eu_img {
+    position: absolute;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    top: 250px;
+    left: 190px;
+    border: 4px solid #ffffff;
+    border-width: 2px 3px; 
+}
+
+.divisão {
+    position: absolute;
+    width: 5px;
+    height: 285px;
+    background-color:#ffffff;
+    border-radius: 5%;
+    top: 260px;
+    left: 500px;
+}
+
+.divisão_ {
+    position: absolute;
+    width: 298px;
+    height: 5px;
+    background-color:#ffffff;
+    border-radius: 5%;
+    top: 315px;
+    left: 500px;
+}
+
+h2 {
+    color: white;
+    position: absolute;
+    top: 215px;
+    left: 515px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: sombraColorida 4s infinite;
+}
+
+@keyframes sombraColorida {
+    0% {
+      text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.5); /* Sombra azul */
+    }
+    25% {
+      text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.5); /* Sombra verde */
+    }
+    50% {
+      text-shadow: 2px 2px 4px rgba(255, 255, 0, 0.5); /* Sombra amarela */
+    }
+    75% {
+      text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Sombra branca */
+    }
+    100% {
+      text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.5); /* Sombra azul novamente */
+    }
+  }
+
+  .user_icon {
+    position: absolute;
+    top: 345px;
+    left: 515px;
+  }
+
+  .time_icon {
+    position: absolute;
+    top: 380px;
+    left: 515px;
+  }
+
+  .home_icon {
+    position: absolute;
+    top: 415px;
+    left: 515px;
+  }
+
+  .mala_icon{
+    position: absolute;
+    top: 450px;
+    left: 515px;
+  }
+
+  .notebook_icon {
+    position: absolute;
+    top: 485px;
+    left: 515px;
+  }
+
+  .school_icon {
+    position: absolute;
+    top: 520px;
+    left: 515px;
+  }
+
+  .info {
+    position: absolute;
+    color: #175AA8;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 348px;
+    left: 545px;
+    font-size: 100%;
+  }
+
+
+
+
+.clock {
+  position: absolute;
+  width: 500px;
+  height: 385px;
+  top: 210px;
+  left: 750px;
+
+}
+
+.circle_center {
+    width: 200px;
+    height: 200px;
+    background-color: #151728;
+    border-radius: 100%;
+    position: absolute;
+    top: 300px;
+    left: 890px;
+}
+
+.ponteiro_loco {
+  width: 5px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #23263A;
+  position: absolute;
+  top: 302px;
+  left: 990px;
+  animation-name: ponteiro;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 100%;
+}
+
+@keyframes ponteiro {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ponteiro_loco2 {
+  width: 5px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #23263A;
+  position: absolute;
+  top: 302px;
+  left: 990px;
+  animation-name: ponteiro2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 100%;
+  animation-delay: 2s;
+}
+
+@keyframes ponteiro2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ball {
+  width: 15px;
+  height: 15px;
+  background-color: #23263A;
+  position: absolute;
+  top: 396px;
+  left: 984px;
+  border-radius: 100%;
+
+}
