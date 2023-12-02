@@ -14,7 +14,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: -1%;
     left: -1%;
-    box-shadow: 2px 2px 4px #151728;
+    box-shadow: 4px 4px 10px #31355e;
 }
 
 h1 {
@@ -42,7 +42,7 @@ h1 {
     border-radius: 25px;
     left: 160px;
     top: 210px;
-    box-shadow: 4px 4px 4px #0d0e18;
+    box-shadow: 6px 6px 4px #0d0e18;
 }
 
 .eu_img {
@@ -149,16 +149,12 @@ h2 {
     font-size: 100%;
   }
 
-
-
-
 .clock {
   position: absolute;
   width: 500px;
   height: 385px;
   top: 210px;
   left: 750px;
-
 }
 
 .circle_center {
@@ -228,3 +224,32 @@ h2 {
   border-radius: 100%;
 
 }
+
+.git_icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 45px;
+  left: 1115px;
+  transition: fill 0.3s;
+  cursor: pointer;
+}
+
+.git_icon:hover {
+  fill: #175AA8;
+}
+
+.insta_icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 45px;
+  left: 1170px;
+  transition: fill 0.3s;
+  cursor: pointer;
+}
+
+.insta_icon:hover {
+  fill: #175AA8;
+}
+
